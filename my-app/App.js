@@ -1,3 +1,116 @@
+/*import React, { Component } from 'react';
+import { AppRegistry, ScrollView, Image, Text } from 'react-native';
+
+export default class IScrolledDownAndWhatHappenedNextShockedMe extends Component {
+  render() {
+      return (
+        <ScrollView>
+          <Text style={{fontSize:96}}>Scroll me plz</Text>
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Text style={{fontSize:96}}>If you like</Text>
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Text style={{fontSize:96}}>Scrolling down</Text>
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Text style={{fontSize:96}}>Whats the best</Text>
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Text style={{fontSize:96}}>Framework around?</Text>
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Image source={require('/react-native/img/favicon.png')} />
+          <Text style={{fontSize:80}}>React Native</Text>
+        </ScrollView>
+    );
+  }
+}
+*/
+/*
+import React, { Component } from 'react';
+import { Alert, AppRegistry, Platform, StyleSheet, Text, TouchableHighlight, TouchableOpacity, TouchableNativeFeedback, TouchableWithoutFeedback, View } from 'react-native';
+
+export default class Touchables extends Component {
+  _onPressButton() {
+    Alert.alert('You tapped the button!')
+  }
+
+  _onLongPressButton() {
+    Alert.alert('You long-pressed the button!')
+  }
+
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <TouchableHighlight onPress={this._onPressButton} underlayColor="white">
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>TouchableHighlight</Text>
+          </View>
+        </TouchableHighlight>
+        <TouchableOpacity onPress={this._onPressButton}>
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>TouchableOpacity</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableNativeFeedback
+            onPress={this._onPressButton}
+            background={Platform.OS === 'android' ? TouchableNativeFeedback.SelectableBackground() : ''}>
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>TouchableNativeFeedback</Text>
+          </View>
+        </TouchableNativeFeedback>
+        <TouchableWithoutFeedback
+            onPress={this._onPressButton}
+            >
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>TouchableWithoutFeedback</Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableHighlight onPress={this._onPressButton} onLongPress={this._onLongPressButton} underlayColor="white">
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>Touchable with Long Press</Text>
+          </View>
+        </TouchableHighlight>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 60,
+    alignItems: 'center'
+  },
+  button: {
+    marginBottom: 30,
+    width: 260,
+    alignItems: 'center',
+    backgroundColor: '#2196F3'
+  },
+  buttonText: {
+    padding: 20,
+    color: 'white'
+  }
+})
+*/
+
+/*
 //Touch: Button
 import React, { Component } from 'react';
 import { Alert, AppRegistry, Button, StyleSheet, View } from 'react-native';
@@ -53,7 +166,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   }
 })
-
+*/
 /*
 // Textinput: https://facebook.github.io/react-native/docs/handling-text-input.html
 // More to read: https://reactjs.org/docs/forms.html#controlled-components
